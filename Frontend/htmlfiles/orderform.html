@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Form | Cougar Cave</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="site-header">
+            <h1>Cougar Cave Menu Order Form</h1>
+        </header>
+        <form id="orderForm">
+            <fieldset>
+                <legend>Select the items you'd like to order</legend>
+            </fieldset>
+            <div class="total">
+                Total: $<span id="totalAmount">0</span>
+            </div>
+            <button type="submit">Submit Order</button>
+        </form>
+        <div id="feedback"></div>
+    </div>
+    <script src="menu-items.js"></script>
+    <script src="order.js"></script>
+</body>
+</html>
