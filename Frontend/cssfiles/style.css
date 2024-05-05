@@ -1,0 +1,53 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 1.5;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: #017cff;
+}
+
+.bio-img {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.bio h2 {
+    text-align: center;
+}
+
+.main-page {
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+}

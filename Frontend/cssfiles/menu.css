@@ -1,0 +1,124 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.site-header {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100px; 
+    padding: 20px 0; 
+    background-color: #ae3541;
+    color: #f4f4f4;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Container for centering the content */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Styling for the menu header with image and category name */
+.menu-category-header {
+    display: flex;
+    align-items: center;
+    background-color: #a52834; /* Theme color red */
+    color: white;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.category-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+.hidden {
+    display: none;
+}
+
+.menu-items {
+    list-style: none;
+    padding: 10px;
+    background: #ffffff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    display: block; 
+}
+
+.menu-item {
+    padding: 10px;
+    border-top: 1px solid #eee;
+}
+
+.menu-item:first-child {
+    border-top: none;
+}
+
+.menu-item h4 {
+    font-size: 1.2em;
+    color: #a52834;
+    margin-bottom: 5px;
+}
+
+.menu-item p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.4;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .menu-category-header {
+        flex-direction: column;
+    }
+
+    .category-icon {
+        margin-bottom: 10px;
+    }
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px; 
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#menu-container {
+    padding: 20px; 
+    background: #f9f9f9; 
+    box-shadow: inset 0 0 10px #ccc; 
+}
+
+.menu-item-link {
+    color: inherit; 
+    text-decoration: none; 
+    display: block; 
+    padding: 10px; 
+}
+
+.menu-item-link:hover {
+    background-color: #eee; 
+}
