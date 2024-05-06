@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Confirmation | Cougar Cave</title>
+    <link rel="stylesheet" href="orderform.css">
+</head>
+<body>
+    <div class="container">
+        <header class="site-header">
+            <h1>Thank You for Your Order!</h1>
+        </header>
+        <div class="confirmation">
+            <p>Your order has been successfully placed.</p>
+            <p>Total Amount Paid: $<span id="totalAmount">0</span></p>
+        </div>
+        <a href="/">Return to Home</a>
+    </div>
+    <script>
+        // Script to extract the total amount from the URL and display it
+        window.onload = function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const totalAmount = urlParams.get('total');
+            document.getElementById('totalAmount').textContent = totalAmount;
+        };
+    </script>
+</body>
+</html>
