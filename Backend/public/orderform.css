@@ -1,0 +1,100 @@
+
+.site-header {
+    text-align: center; 
+    margin-bottom: 30px; 
+    color: antiquewhite;
+}
+
+form#orderForm {
+    background: #f9f9f9;
+    padding: 30px; 
+    margin: 0 auto;
+    max-width: 800px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+    border-radius: 8px; 
+}
+
+
+legend {
+    font-size: 1.4em;
+    margin-bottom: 20px; 
+}
+
+fieldset {
+    padding: 20px; 
+    border-radius: 8px; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: #800000; 
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+    background: #d12929; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+fieldset {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+legend {
+    padding: 0 5px;
+    font-weight: bold;
+    color: #0b0b0b; 
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    color: #0d0d0d; 
+}
+
+input[type="number"], input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+input[type="number"] {
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.total {
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #a52834; 
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #a52834; 
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #922023;
+}
+
+#feedback {
+    color: red;
+    margin-top: 10px;
+}
